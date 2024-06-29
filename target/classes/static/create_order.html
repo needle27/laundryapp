@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Order</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <div class="container" id="order">
+        <a href="index.html" class="back">&laquo; Kembali</a>
+        <h2>Create Order</h2>
+        <form id="createOrderForm">
+            <input type="text" id="jenisPelayanan" placeholder="Jenis Pelayanan" required>
+            <input type="number" id="totalBiaya" placeholder="Total Biaya" required>
+            <input type="date" id="tanggal" required>
+            <input type="number" id="pelangganId" placeholder="Pelanggan ID" required>
+            <pre id="result2"></pre>
+            <button type="submit">Create Order</button>
+        </form>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
